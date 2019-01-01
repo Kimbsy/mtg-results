@@ -1,0 +1,80 @@
+{:name "Team Unified Modern GP Liverpool"
+ :location "Liverpool"
+ :type :gp
+ :days 2
+ :date "2018-12-08"
+ :format :team-unified-modern
+ :deck {:name "UW Control"
+        :url "https://tappedout.net/mtg-decks/modern-uw-terminus-control/"}
+ :results [{:day 1
+            :matches [{:round 1
+                       :opponent "Bant Spirits"
+                       :result :loss
+                       :games [{:game 1
+                                :result :loss
+                                :pd :p
+                                :mulls {:opp 1}}
+                               {:game 2
+                                :result :loss
+                                :pd :p}]}
+                      {:round 2
+                       :opponent "Tron"
+                       :result :draw
+                       :games [{:game 1
+                                :result :loss
+                                :pd :p
+                                :mulls {:me 1
+                                        :opp 1}}
+                               {:game 2
+                                :result :win
+                                :pd :d
+                                :mulls {:me 1
+                                        :opp 3}}]}
+                      {:round 3
+                       :opponent "UW Control"
+                       :result :loss
+                       :games [{:game 1
+                                :result :loss
+                                :pd :p
+                                :mulls {:me 2
+                                        :opp 1}}
+                               {:game 2
+                                :result :loss
+                                :pd :p}]}
+                      {:round 4
+                       :opponent "Counters Company"
+                       :result :draw
+                       :games [{:game 1
+                                :result :loss
+                                :pd :d}
+                               {:game 2
+                                :result :win
+                                :pd :p
+                                :mulls {:opp 1}}
+                               {:game 3
+                                :result :draw
+                                :pd :d}]}
+                      {:round 5
+                       :opponent "Jeskai Control"
+                       :result :win
+                       :games [{:game 1
+                                :result :win
+                                :pd :d}
+                               {:game 2
+                                :result :win
+                                :pd :d}]}
+                      {:round 6
+                       :opponent "Counters Company"
+                       :result :loss
+                       :games [{:game 1
+                                :result :win
+                                :pd :d}
+                               {:game 2
+                                :result :loss
+                                :pd :d}
+                               {:game 3
+                                :result :loss
+                                :pd :p}]
+                       :drop true}]}
+           {:day 2
+            :matches []}]}
