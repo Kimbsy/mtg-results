@@ -1,0 +1,50 @@
+{:name "Standard PPTQ Bristol"
+ :location "Bristol"
+ :venue "Excelsior Games"
+ :type :pptq
+ :days 1
+ :date "2019-01-05"
+ :format :standard
+ :deck {:name "UB Midrange"
+        :url "http://tappedout.net/mtg-decks/rna-5c-control/"}
+ :results [{:day 1
+            :matches [{:round 1
+                       :opponent "Izzet Drakes"
+                       :result :loss
+                       :games [{:game 1
+                                :result :loss
+                                :pd :p
+                                :mulls {:opp 1}}
+                               {:game 2
+                                :result :win
+                                :pd :p
+                                :mulls {:opp 1}}
+                               {:game 3
+                                :result :loss
+                                :pd :d
+                                :mulls {:me 1
+                                        :opp 1}}]}
+                      {:round 2
+                       :opponent "Selesnya Tokens"
+                       :result :loss
+                       :games [{:game 1
+                                :result :loss
+                                :pd :d
+                                :mulls {:me 1}}
+                               {:game 2
+                                :result :win
+                                :pd :p}
+                               {:game 3
+                                :result :loss
+                                :pd :d}]}
+                      {:round 3
+                       :opponent "Jeskai Control"
+                       :result :win
+                       :games [{:game 1
+                                :result :win
+                                :pd :d
+                                :mulls {:opp 1}}
+                               {:game 2
+                                :result :win
+                                :pd :d}]
+                       :drop true}]}]}

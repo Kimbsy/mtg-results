@@ -1,5 +1,6 @@
 {:name "Team Unified Modern GP Liverpool"
  :location "Liverpool"
+ :venue "ACC Liverpool"
  :type :gp
  :days 2
  :date "2018-12-08"

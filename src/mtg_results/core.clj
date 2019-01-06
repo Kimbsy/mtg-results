@@ -18,7 +18,7 @@
   [url]
   (filter (fn [{:keys [deck]}]
             (= url (:url deck)))
-          (get-all-results)))
+          (get-all-tournaments)))
 
 (defn match-wld-rate-for-day
   [totals day]
@@ -42,6 +42,7 @@
           tournaments))
 
 (match-wld-rate (get-all-tournaments))
+(match-wld-rate (get-tournaments-by-deck-url "http://tappedout.net/mtg-decks/grn-ub-control-1/"))
 
 
 

@@ -1,5 +1,6 @@
 {:name "Mordern PTQ Liverpool"
  :location "Liverpool"
+ :venue "ACC Liverpool"
  :type :ptq
  :days 1
  :date "2018-12-09"
