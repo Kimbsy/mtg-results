@@ -14,6 +14,10 @@
          (map slurp)
          (map edn/read-string))))
 
+(defn get-all-decks
+  []
+  (map :deck (get-all-tournaments)))
+
 (defn get-tournaments-by-deck-url
   [url]
   (filter (fn [{:keys [deck]}]
