@@ -46,7 +46,7 @@
           tournaments))
 
 (match-wld-rate (get-all-tournaments))
-(match-wld-rate (get-tournaments-by-deck-url "http://tappedout.net/mtg-decks/grn-ub-control-1/"))
+(match-wld-rate (get-tournaments-by-deck-url "https://tappedout.net/mtg-decks/modern-uw-control-copenhagen-2019/"))
 
 
 

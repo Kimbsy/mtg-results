@@ -1,0 +1,43 @@
+{:name "Modern Double Up Copenhagen"
+ :location "Copenhagen"
+ :venue "Bella Center"
+ :type :gp-side-event
+ :days 1
+ :date "2019-06-16"
+ :format :modern
+ :deck {:name "UW Control"
+        :url "https://tappedout.net/mtg-decks/modern-uw-control-copenhagen-2019/"}
+ :results [{:day 1
+            :matches [{:round 1
+                       :opponent "Izzet Phoenix"
+                       :result :win
+                       :games [{:game 1
+                                :result :win
+                                :pd :d}
+                               {:game 2
+                                :result :loss
+                                :pd :d
+                                :mulls {:me 1}}
+                               {:game 3
+                                :result :win
+                                :pd :p
+                                :mulls {:opp 1}}]}
+                      {:round 2
+                       :opponent "Esper Control"
+                       :friend "Peter Cassell"
+                       :result :loss
+                       :games [{:game 1
+                                :result :loss
+                                :pd :p}
+                               {:game 2
+                                :result :loss
+                                :pd :d}]}
+                      {:round 3
+                       :opponent "UW Control"
+                       :result :win
+                       :games [{:game 1
+                                :result :win
+                                :pd :d}
+                               {:game 2
+                                :result :win
+                                :pd :d}]}]}]}
