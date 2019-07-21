@@ -1,0 +1,50 @@
+{:name "EMCQ BRistol"
+ :location "Bristol"
+ :venue "Excelsior Games"
+ :type :emcq
+ :days 1
+ :date "2019-07-21"
+ :format :modern
+ :deck {:name "UW Control"
+        :url "https://tappedout.net/mtg-decks/modern-uw-control-war-update/"}
+ :results [{:day 1
+            :matches [{:round 1
+                       :opponent "Grixis Death's Shadow"
+                       :result :loss
+                       :games [{:game 1
+                                :result :loss
+                                :pd :p}
+                               {:game 2
+                                :result :loss
+                                :pd :p
+                                :mulls {:me 2}}]}
+                      {:round 2
+                       :opponent "Eldrazi and Taxes"
+                       :result :loss
+                       :games [{:game 1
+                                :result :win
+                                :pd :d}
+                               {:game 2
+                                :result :loss
+                                :pd :d
+                                :mulls {:opp 1}}
+                               {:game 3
+                                :result :loss
+                                :pd :p}]}
+                      {:round 3
+                       :opponent :bye
+                       :result :win}
+                      {:round 4
+                       :opponent "Dredge"
+                       :result :loss
+                       :games [{:game 1
+                                :result :loss
+                                :pd :p
+                                :mulls {:me 2}}
+                               {:game 2
+                                :result :win
+                                :pd :p
+                                :mulls {:opp 1}}
+                               {:game 3
+                                :result :loss
+                                :pd :d}]}]}]}
